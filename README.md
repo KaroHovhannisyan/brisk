@@ -2,9 +2,9 @@
 
 **A fast, friendly Mac cleaner and system monitor.** See what is using your CPU, memory and disk, and reclaim space safely, all in one native app.
 
-[**Download Brisk 1.0 for Mac**](https://github.com/KaroHovhannisyan/brisk/releases/latest/download/Brisk-1.0.dmg) · [All releases](https://github.com/KaroHovhannisyan/brisk/releases)
+[**Download Brisk for Mac**](https://github.com/KaroHovhannisyan/brisk/releases/latest/download/Brisk.dmg) · [All releases](https://github.com/KaroHovhannisyan/brisk/releases)
 
-Signed with a Developer ID and notarized by Apple. Native SwiftUI, no network access, no accounts, no tracking.
+Signed with a Developer ID and notarized by Apple. Native SwiftUI, no accounts, no tracking. Updates itself.
 
 ![Dashboard](docs/dashboard.png)
 
@@ -27,11 +27,15 @@ Signed with a Developer ID and notarized by Apple. Native SwiftUI, no network ac
 
 ## Install
 
-1. Download **Brisk-1.0.dmg** from the [latest release](https://github.com/KaroHovhannisyan/brisk/releases/latest).
+1. Download **Brisk.dmg** from the [latest release](https://github.com/KaroHovhannisyan/brisk/releases/latest).
 2. Open it and drag **Brisk** onto **Applications**.
 3. Launch Brisk from Applications.
 
 **Requirements:** macOS 14 (Sonoma) or later, Apple Silicon Mac.
+
+### Updates
+
+From version 1.1, Brisk checks for new versions once a day and offers to install them. Updates are verified with a cryptographic signature before they are applied. You can also check by hand with **Brisk → Check for Updates…** or the link at the bottom of the sidebar. If you are on 1.0, download the latest `Brisk.dmg` once; after that updates are automatic.
 
 ### Optional: Full Disk Access
 
@@ -46,7 +50,7 @@ Brisk works without it. To let it see and size everything in your Library folder
 
 ## Privacy
 
-Brisk runs entirely on your Mac. It makes no network connections, collects no data and has no analytics.
+Brisk runs entirely on your Mac and collects no data. The only network request it makes is the daily check for a new version, which downloads a small public file from this repository (`appcast.xml`). It sends no information about you or your Mac.
 
 ## Notes
 

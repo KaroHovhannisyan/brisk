@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Brisk</title>
+        <item>
+            <title>1.1</title>
+            <pubDate>Wed, 25 Nov 2026 15:31:07 +0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Brisk 1.1</h2>
+<ul>
+  <li><b>Automatic updates.</b> Brisk now checks for new versions in the background and offers to install them. You can also use <i>Brisk → Check for Updates…</i>.</li>
+  <li>Stability fix for macOS 14 (Sonoma).</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/KaroHovhannisyan/brisk/releases/download/v1.1.0/Brisk.dmg" length="3605274" type="application/octet-stream" sparkle:edSignature="sP6uVNdqkR7h/oebXCmmzWIsWvk9FJY65jUbuvYv2nDVVaQ1YdA79BFD4eoom5fQDS6DD7b2q6vAdEsHHj9pBA=="/>
+        </item>
+    </channel>
+</rss>
